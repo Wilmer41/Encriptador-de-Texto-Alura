@@ -62,7 +62,7 @@ function desencriptarTexto(mensaje){
     for(var i = 0; i < texto.length; i++){
      if(texto[i] == "a"){
           textoFinal = textoFinal +"a"
-          i = i+;
+          i = i+1;
       }
      else if(texto[i] == "e"){
           textoFinal = textoFinal +"e"
