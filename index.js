@@ -2,8 +2,7 @@ var botonEncriptar = document.querySelector(".btn-encriptar");
 var botonDesencriptar = document.querySelector(".btn-desencriptar");
 var Muñeco = document.querySelector(".contenedormuñeco");
 var contenedor = document.querySelector(".contenedor-parrafo");
-var resultado = document.querySelector(".Texto-Resultado");
-
+var resultado = document.querySelector(".texto-resultado")
 botonEncriptar.onclick = encriptar;
 botonDesencriptar.onclick = desencriptar;
 
@@ -89,9 +88,9 @@ function desencriptarTexto(mensaje){
 }
 
 const btncopiar = document.querySelector(".btn-copiar");
-     btncopiar.addEventListener("click",copiar = () =>) {
+     btncopiar.addEventListener("click",copiar = () => {
         var contenido = document.querySelector(".texto-resultado").textContent;
         navigator.clipboard.writeText(contenido);
         console.log("hola");
-     }
+     })
 
