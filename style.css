@@ -100,7 +100,7 @@ main{
     padding-top: 10px;
     display:block;
     position: relative;
-    width: 400px;
+    width: 450px;
     height: 810px;
     right: 450px;
     padding-right: 25px;
@@ -114,7 +114,7 @@ main{
 .contenedormuñeco{
       position: absolute;
       left: 10px;
-      top: 50px;
+      top: 30px;
       box-sizing: border-box;
       padding-top: 50px;    
 }
